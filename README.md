@@ -67,7 +67,7 @@ docker-compose up --build
 
 API: http://localhost:8000  
 Swagger Docs: http://localhost:8000/docs  
-Frontend: Open `frontend/index.html` in your browser
+Frontend: http://localhost:3000
 
 ---
 
