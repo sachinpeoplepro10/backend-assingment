@@ -48,7 +48,7 @@ taskapi/
 ├── requirements.txt
 ├── Dockerfile
 ├── docker-compose.yml
-├── .env.example
+├── .env
 └── README.md
 ```
 
