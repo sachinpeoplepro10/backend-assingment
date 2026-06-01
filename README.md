@@ -60,7 +60,7 @@ taskapi/
 
 ```bash
 # Clone and start everything (API + PostgreSQL)
-git clone <your-repo>
+git clone <https://github.com/sachinpeoplepro10/backend-assingment.git>
 cd taskapi
 docker-compose up --build
 ```
