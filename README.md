@@ -62,8 +62,7 @@ sa/
 # Clone and start everything (API + PostgreSQL)
 git clone <https://github.com/sachinpeoplepro10/backend-assingment.git>
 cd SachinBackendAssingment
-docker-compose up --build
-app.main:app --reload
+docker compose up --build
 ```
 
 API: http://localhost:8000  
