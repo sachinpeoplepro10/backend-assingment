@@ -62,7 +62,7 @@ sa/
 # Clone and start everything (API + PostgreSQL)
 git clone <https://github.com/sachinpeoplepro10/backend-assingment.git>
 cd SachinBackendAssingment
-### docker-compose up --build
+docker-compose up --build
 app.main:app --reload
 ```
 
@@ -85,7 +85,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 3. Configure environment
-cp .env.example .env
+cp .env
 # Edit .env with your DATABASE_URL and SECRET_KEY
 
 # 4. Start the server (tables auto-created on startup)
