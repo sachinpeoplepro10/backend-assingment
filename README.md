@@ -21,7 +21,7 @@ A scalable REST API built with **FastAPI**, featuring JWT authentication, role-b
 ## Project Structure
 
 ```
-taskapi/
+sa/
 ├── app/
 │   ├── api/v1/
 │   │   ├── endpoints/
@@ -61,8 +61,9 @@ taskapi/
 ```bash
 # Clone and start everything (API + PostgreSQL)
 git clone <https://github.com/sachinpeoplepro10/backend-assingment.git>
-cd taskapi
-docker-compose up --build
+cd SachinBackendAssingment
+### docker-compose up --build
+app.main:app --reload
 ```
 
 API: http://localhost:8000  
