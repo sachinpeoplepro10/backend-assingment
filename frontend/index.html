@@ -95,7 +95,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
 <script type="text/babel">
 const { useState, useEffect, useCallback } = React;
-const API = "http://localhost:8000/api/v1";
+const API = "https://backend-assingment-s3ik.onrender.com/api/v1";
 
 const apiFetch = async (path, options = {}, token = null) => {
   const headers = { "Content-Type": "application/json", ...(token ? { Authorization: `Bearer ${token}` } : {}) };
